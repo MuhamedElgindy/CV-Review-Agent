@@ -24,7 +24,7 @@ The solution supports:
 
 ---
 
-# Architecture Overview
+## Architecture Overview
 
 The solution is built using:
 
@@ -37,7 +37,7 @@ The solution is built using:
 - Custom Objects
 - Permission Sets
 
-## High-Level Architecture
+### High-Level Architecture
 
 ```text
 Recruiter
@@ -85,10 +85,13 @@ Role_Profile__c              Agentforce
                                   |
                                   v
                        Candidate_Bookmark__c
+```
 
+---
 
 ## Project Structure
 
+```text
 CV_Review_Agent/
 |
 ├── force-app/
@@ -119,3 +122,4 @@ CV_Review_Agent/
 ├── sfdx-project.json
 ├── .gitignore
 └── README.md
+```

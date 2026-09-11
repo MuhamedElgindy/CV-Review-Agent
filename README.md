@@ -85,3 +85,37 @@ Role_Profile__c              Agentforce
                                   |
                                   v
                        Candidate_Bookmark__c
+
+
+## Project Structure
+
+CV_Review_Agent/
+|
+├── force-app/
+│   └── main/
+│       └── default/
+│           |
+│           ├── classes/
+│           │   ├── CVUploadController.cls
+│           │   ├── CandidateCVPromptService.cls
+│           │   ├── CandidateCVProcessor.cls
+│           │   ├── CandidateSearchAction.cls
+│           │   ├── RoleProfileSearchAction.cls
+│           │   └── CandidateBookmarkAction.cls
+│           |
+│           ├── lwc/
+│           │   └── cvUploader/
+│           |
+│           ├── objects/
+│           │   ├── Candidate__c/
+│           │   ├── Candidate_Bookmark__c/
+│           │   └── Role_Profile__c/
+│           |
+│           ├── permissionsets/
+│           ├── tabs/
+│           └── other Salesforce metadata
+│
+├── manifest/
+├── sfdx-project.json
+├── .gitignore
+└── README.md

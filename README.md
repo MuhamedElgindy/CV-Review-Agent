@@ -8,6 +8,8 @@ The solution allows recruiters to upload candidate CVs, extract structured infor
 
 The Agent is designed to provide grounded and explainable recommendations using Salesforce data as the source of truth.
 
+In Sales app
+
 The solution supports:
 
 - Multiple CV uploads
